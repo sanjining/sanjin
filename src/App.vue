@@ -1,14 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+<sanjbutton></sanjbutton>
 </template>
 
 <script>
-import button from './components/button/index.vue'
+import sanjbutton from './components/button/index.vue'
 
 export default {
   name: 'App',
-  components: {
-    button
+  component: {
+    sanjbutton
   }
 }
 </script>

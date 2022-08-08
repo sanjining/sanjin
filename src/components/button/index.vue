@@ -1,7 +1,6 @@
 <template>
   <div>
     <button
-
     >
         按钮
     </button>
@@ -10,8 +9,11 @@
 
 <script>
 export default {
-    name:Sj-button
-    
+    name:Sj-button,
+    //setup()组合式api这是vue3最为关键的一点
+    setup(){
+      
+    }
 }
 </script>
 
