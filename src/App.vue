@@ -1,14 +1,14 @@
 <template>
-<sanjbutton></sanjbutton>
+<Sjbutton></Sjbutton>
 </template>
 
 <script>
-import sanjbutton from './components/button/index.vue'
+import Sjbutton from './components/Sjbutton/index.vue'
 
 export default {
   name: 'App',
-  component: {
-    sanjbutton
+  components: {
+    Sjbutton
   }
 }
 </script>
