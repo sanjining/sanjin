@@ -1,5 +1,5 @@
 <template>
-<Sjbutton></Sjbutton>
+<Sjbutton ></Sjbutton>
 </template>
 
 <script>
