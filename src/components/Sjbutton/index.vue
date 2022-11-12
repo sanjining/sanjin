@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button :class="typeClass"
+    <button :class="typeClass" 
     >
         <slot></slot>
     </button>
@@ -35,20 +35,16 @@ export default defineComponent(
 //有些报错可能是包的版本问题in ./src/components/Sjbutton/index.vue?vue&type=style&index=0&id=2102d888&lang=less  Syntax Error: 
 //就是less-loader版本过高，卸载安装低版本就行
 //Do not use empty rulesets报错就是我写了选择器但是没有写值就是会报这个错误，也是eslint的问题
-.mini{
-width: 50px;
-height: 50px;
+.primary{
+color: rgb(117, 182, 74);
 }
-.small{
+.normal{
 width: 100px;
 height: 100px;
 }
 .normal{
-width: 150px;
-height: 150px;
+width: 100px;
+height: 100px;
 }
-.big{
-width: 200px;
-height: 200px;
-}
+
 </style>

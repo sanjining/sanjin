@@ -1,7 +1,6 @@
 <template>
 <!-- vue3可以不需要根组件了 -->
   <div></div>
-  <div></div>
 </template>
 
 <script>

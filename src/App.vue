@@ -1,8 +1,6 @@
 <template>
-<Sjbutton type="mini">按钮</Sjbutton>
-<Sjbutton type="small"></Sjbutton>
-<Sjbutton type="normal"></Sjbutton>
-<Sjbutton type="big"></Sjbutton>
+<Sjbutton type="primary">按钮</Sjbutton>
+
 </template>
 
 <script>
